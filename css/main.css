@@ -20,6 +20,7 @@ button{
     max-width: 1120px;
     margin: 0 auto;
     padding:  0 10px;
+    box-sizing: border-box;
 }
 .line{
     width: 100%;
@@ -174,7 +175,8 @@ button{
     line-height: 120%; 
     letter-spacing: 0.5px;
 }
-.icon{
+.about-col .icon{
+    transition: 0.5s;
     width: 100px;
     height: 100px;
     display: grid;
@@ -182,6 +184,7 @@ button{
     border-radius: 50%;
     background-color: #FF750033;
     margin-bottom: 32px;
+
 }
 .about-row{
     display: grid;
@@ -208,7 +211,13 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.5s;
 }
+.about-col:hover .icon{
+    transform: rotateY(360deg);
+}
+
+
 .price{
     padding-bottom: 160px;
 }
