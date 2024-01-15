@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKADEMNASHR</title>
+    <!-- css animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- Aos animate -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- font awesome -->
@@ -19,10 +21,10 @@
         <div class="line"></div>
         <div class="container">
               <nav class="nav">
-                    <a href="#" class="logo">
+                    <a href="#" class="logo" data-aos="fade-right" data-aos-duration="1000">
                           <img src="./images/logo.svg" alt="">
                     </a>
-                    <div class="nav-right">
+                    <div class="nav-right" data-aos="fade-left" data-aos-duration="1000">
                           <ul class="nav-list">
                                 <li><a class="active" href="#">Bosh sahifa</a></li>
                                 <li><a href="#">Kitoblar</a></li>
@@ -42,7 +44,7 @@
         <section class="hero">
               <div class="container">
                     <div class="hero-content">
-                          <div class="hero-left" data-aos="fade-right">
+                          <div class="hero-left" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="line"></div>
                                 <h1>Pythonda dasturlash
                                       asoslari</h1>
@@ -61,10 +63,10 @@
         <section class="about">
               <div class="container">
                     <div class="line"></div>
-                    <h1 class="about-title animate__animated animate__bounce animate__slow animate__infinite">Nega aynan
+                    <h1 class="about-title animate__animated animate__bounce animate__slow animate__infinite animate__zoomInDown">Nega aynan
                           Akademnashr?</h1>
                     <div class="about-row">
-                          <div class="about-col">
+                          <div class="about-col"  data-aos="zoom-in" data-aos-duration="1000">
                                 <div class="icon">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56"
                                             viewBox="0 0 56 56" fill="none">
@@ -84,7 +86,7 @@
                                 <p>Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila
                                       olasiz.</p>
                           </div>
-                          <div class="about-col">
+                          <div class="about-col"  data-aos="zoom-in" data-aos-duration="1200">
                                 <div class="icon">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56"
                                             viewBox="0 0 56 56" fill="none">
@@ -100,7 +102,7 @@
                                 <p>Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi
                                       kitoblarni topa olasiz.</p>
                           </div>
-                          <div class="about-col">
+                          <div class="about-col"  data-aos="zoom-in" data-aos-duration="1400">
                                 <div class="icon">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56"
                                             viewBox="0 0 56 56" fill="none">
@@ -202,5 +204,6 @@
     <script>
         AOS.init();
       </script>
+
 </body>
 </html>
